@@ -1,3 +1,82 @@
-topic h1 {
+header h1 {
     font-size: 300%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba( 75,6,75,1) 0%, rgba( 75, 6, 75, .5) 100%);
+    padding: 10px 20px;
+    border-bottom: 4px dotted navy;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+main {
+    padding-top: 20px;
+    background-image: linear-gradient( rgba(67, 57, 67, 0.4) 0%, rgba(67,57,67,0.8) 100%);
+}
+
+.card {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0 10px 10px 20px;
+}
+
+aside {
+    display: flex;
+    width: 20%;
+    border-right: 4px solid navy;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+aside h2 {
+    font-size: 180%;
+    
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+article ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.topic {
+    width:45%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 1%;
+}
+
+#box1 {
+    width: 92%;
+    height:
 }
