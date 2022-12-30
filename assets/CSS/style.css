@@ -1,32 +1,56 @@
-header h1 {
-    font-size: 300%;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    height: 120px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(rgba( 75,6,75,1) 0%, rgba( 75, 6, 75, .5) 100%);
     padding: 10px 20px;
-    border-bottom: 4px dotted navy;
+    border-bottom: 1px dotted gray;
+}
+
+
+header h1 {
+    font-size: 300%;
+}
+
+#Name {
+    display: flex;
+    position: absolute;
+    left: 10;
+    top: 10;
+}
+
+#Name img {
+    margin: 0 16px;
+    height: 100px;
+    width: 100px;
 }
 
 nav {
     display: flex;
-    justify-content: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 3;
 }
 
 nav a {
     color: #13293d;
-    padding: 14px 20px;
+    margin: 14px 20px;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
   }
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     min-width: 300px;
 }
 
@@ -70,13 +94,63 @@ article ul {
 }
 
 .topic {
+    display: flex;
+    position: relative;
     width:45%;
-    height: 300px;
-    border: 1px solid black;
+    aspect-ratio: 3/2;
+    border: 3px solid navy;
     margin: 1%;
+}
+
+.label {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 10%;
+    height: 30%;
+    justify-content: space-between;
+    background-image:linear-gradient(rgba( 75,6,75,1) 0%, rgba( 75, 6, 75, .5) 100%);
+    padding: 1%;
+}
+
+.label h1 {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+#box1 .label {
+    bottom: 5%;
+    height: 15%
 }
 
 #box1 {
     width: 92%;
-    height:
+    background-image: url(../images/techImage1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box2 {
+    background-image: url(../images/techImage2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3 {
+    background-image: url(../images/techImage3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box4 {
+    background-image: url(../images/techImage4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box5 {
+    background-image: url(../images/techImage5.jpg);
+    background-size: cover;
+    background-position: center;
 }
