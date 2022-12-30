@@ -40,13 +40,17 @@ nav {
     line-height: 3;
 }
 
-nav a {
-    color: #13293d;
+a {
+    color: navy;
     margin: 14px 20px;
     font-weight: bold;
     text-decoration: none;
     text-align: right;
-  }
+}
+
+a:hover {
+    color: cyan;
+}
 
 nav ul {
     display: flex;
@@ -100,6 +104,12 @@ article ul {
     aspect-ratio: 3/2;
     border: 3px solid navy;
     margin: 1%;
+    background-size: cover;
+    background-position: center;
+}
+
+.topic:hover {
+    border: 3px solid cyan;
 }
 
 .label {
@@ -110,7 +120,7 @@ article ul {
     height: 30%;
     justify-content: space-between;
     background-image:linear-gradient(rgba( 75,6,75,1) 0%, rgba( 75, 6, 75, .5) 100%);
-    padding: 1%;
+    padding: 1% 5%;
 }
 
 .label h1 {
@@ -126,31 +136,46 @@ article ul {
 
 #box1 {
     width: 92%;
-    background-image: url(../images/techImage1.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("../images/techImage1.jpg") ;
 }
 
 #box2 {
-    background-image: url(../images/techImage2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("../images/techImage2.jpg") ;
 }
 
 #box3 {
-    background-image: url(../images/techImage3.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("../images/techImage3.jpg") ;
 }
 
 #box4 {
-    background-image: url(../images/techImage4.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("../images/techImage4.jpg") ;
 }
 
 #box5 {
-    background-image: url(../images/techImage5.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("../images/techImage5.jpg") ;
+}
+
+#box1:hover {
+    background-image: url("../images/techImage1.jpg") ;
+}
+
+#box2:hover {
+    background-image: url("../images/techImage2.jpg") ;
+}
+
+#box3:hover {
+    background-image: url("../images/techImage3.jpg") ;
+}
+
+#box4:hover {
+    background-image: url("../images/techImage4.jpg") ;
+}
+
+#box5:hover {
+    background-image: url("../images/techImage5.jpg") ;
 }
