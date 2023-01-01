@@ -11,10 +11,10 @@ N/A
 ## Usage
 
 Deployed Website
-https://mwelle238.github.io/challenge2/
+https://mwelle238.github.io/challenge02/
 
 GitHub link
-https://github.com/mwelle238/challenge2
+https://github.com/mwelle238/challenge02
 
 
 ## Credits
