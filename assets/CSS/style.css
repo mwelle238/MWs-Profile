@@ -148,7 +148,7 @@ article ul {
 #box1 {
     width: 92%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                  url("../images/techImage1.jpg") ;
+                  url("../images/fashionForecast.jpg") ;
 }
 
 #box2 {
@@ -172,7 +172,7 @@ article ul {
 }
 
 #box1:hover {
-    background-image: url("../images/techImage1.jpg") ;
+    background-image: url("../images/fashionForecast.jpg") ;
 }
 
 #box2:hover {
