@@ -148,22 +148,22 @@ article ul {
 #box1 {
     width: 92%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                  url("../images/fashionForecast.jpg") ;
+                  url("../images/stadium.jpg") ;
 }
 
 #box2 {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                  url("../images/techImage2.jpg") ;
+                  url("../images/weather.jpg") ;
 }
 
 #box3 {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                  url("../images/techImage3.jpg") ;
+                  url("../images/techImage2.jpg") ;
 }
 
 #box4 {
     background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                  url("../images/techImage4.jpg") ;
+                  url("../images/techImage1.jpg") ;
 }
 
 #box5 {
@@ -172,19 +172,19 @@ article ul {
 }
 
 #box1:hover {
-    background-image: url("../images/fashionForecast.jpg") ;
+    background-image: url("../images/stadium.jpg") ;
 }
 
 #box2:hover {
-    background-image: url("../images/techImage2.jpg") ;
+    background-image: url("../images/weather.jpg") ;
 }
 
 #box3:hover {
-    background-image: url("../images/techImage3.jpg") ;
+    background-image: url("../images/techImage2.jpg") ;
 }
 
 #box4:hover {
-    background-image: url("../images/techImage4.jpg") ;
+    background-image: url("../images/techImage1.jpg") ;
 }
 
 #box5:hover {
